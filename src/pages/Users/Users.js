@@ -23,6 +23,7 @@ export default function Example() {
   };
 
   const handleChangeUpdateAddObject = (event) => {
+    event.preventDefault();
     if (
       query.id !== "" &&
       query.name !== "" &&

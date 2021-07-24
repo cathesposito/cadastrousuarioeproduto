@@ -25,6 +25,7 @@ export default function Products() {
   };
 
   const handleChangeUpdateAddObject = (event) => {
+    event.preventDefault();
     if (
       query.id !== "" &&
       query.title !== "" &&
