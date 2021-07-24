@@ -74,7 +74,7 @@ export default function Products() {
           onChange={updateQuery}
         />
         <S.Input type="file" name="image" onChange={updateQuery} />
-        <S.Button type="submit">Cadastrar</S.Button>
+        <S.Button type="buttom">Cadastrar</S.Button>
       </S.Form>
     </S.Container>
   );

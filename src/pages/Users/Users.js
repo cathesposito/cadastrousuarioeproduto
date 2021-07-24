@@ -71,7 +71,7 @@ export default function Example() {
             name="address"
             onChange={updateQuery}
           />
-          <S.Button type="submit">Cadastrar</S.Button>
+          <S.Button type="buttom">Cadastrar</S.Button>
         </S.Form>
       </S.UserContainer>
     </>
